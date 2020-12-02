@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1l5X3NSy4aHYz9F0wiHU8nPe3Su" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1160" y="88" key="#Go_Modules" timestamp="1606888403646">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1160" y="88" key="#Go_Modules/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606888403646" />
+    <state x="-1451" y="-113" key="SettingsEditor" timestamp="1606888739072">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1451" y="-113" key="SettingsEditor/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606888739072" />
+    <state x="-1141" y="-56" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606888749458">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1141" y="-56" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606888749458" />
+    <state x="-1253" y="-163" width="586" height="822" key="find.popup" timestamp="1606887835796">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1253" y="-163" width="586" height="822" key="find.popup/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606887835796" />
+    <state x="-1160" y="114" key="scopes" timestamp="1606888081234">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1160" y="114" key="scopes/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606888081234" />
+  </component>
+</project>
