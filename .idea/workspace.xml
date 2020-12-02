@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="" />
+    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="day 3 task 1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,12 +40,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1l5X3NSy4aHYz9F0wiHU8nPe3Su" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -28,12 +65,30 @@
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="go.autoimport" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pkg" />
+      <recent name="$PROJECT_DIR$/internal" />
+      <recent name="$PROJECT_DIR$/../github.com/jdockeray/adventofcode" />
+      <recent name="$PROJECT_DIR$/../github.com/jdockeray" />
+      <recent name="$PROJECT_DIR$/../github.com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build github.com/jdockeray/adventofcode/pkg/day4">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -42,6 +97,44 @@
       <filePath value="$PROJECT_DIR$" />
       <package value="awesomeProject" />
       <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/pkg/day3/task.go" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day3" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/pkg/day4/task.go" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day4" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build task.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pkg/day4/task.go" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestPassportManager_validate in github.com/jdockeray/adventofcode/pkg/day4" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$/pkg/day4" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day4" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestPassportManager_validate\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -55,27 +148,148 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="task_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$/pkg/day4" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/pkg/day4/task_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day4" />
+        <item itemvalue="Go Test.TestPassportManager_validate in github.com/jdockeray/adventofcode/pkg/day4" />
+        <item itemvalue="Go Test.task_test.go" />
+        <item itemvalue="Go Build.go build task.go" />
+        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day3" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="day1" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="day 3 task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 task 1" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1176" y="129" key="#Go_Linter" timestamp="1607087720653">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1176" y="129" key="#Go_Linter/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607087720653" />
     <state x="-1160" y="88" key="#Go_Modules" timestamp="1606888403646">
       <screen x="-1920" y="-292" width="1920" height="1080" />
     </state>
     <state x="-1160" y="88" key="#Go_Modules/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606888403646" />
-    <state x="-1451" y="-113" key="SettingsEditor" timestamp="1606888739072">
+    <state x="-1496" y="-90" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607086960029">
       <screen x="-1920" y="-292" width="1920" height="1080" />
     </state>
-    <state x="-1451" y="-113" key="SettingsEditor/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606888739072" />
+    <state x="-1496" y="-90" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607086960029" />
+    <state x="-1210" y="57" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607087189079">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1210" y="57" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607087189079" />
+    <state x="-1147" y="-29" key="#com.intellij.ide.util.MemberChooser" timestamp="1607146310451">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1147" y="-29" key="#com.intellij.ide.util.MemberChooser/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607146310451" />
+    <state x="-1094" y="152" key="Github.ShareDialog" timestamp="1606889083801">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1094" y="152" key="Github.ShareDialog/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606889083801" />
+    <state x="-1153" y="-40" key="Github.UntrackedFilesDialog" timestamp="1606889100561">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1153" y="-40" key="Github.UntrackedFilesDialog/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606889100561" />
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom" timestamp="1607942243043">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.bottom/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942243043" />
+    <state width="1920" height="312" key="GridCell.Tab.0.bottom/-1920.-292.1920.1080/0.23.1680.1027@-1920.-292.1920.1080" timestamp="1606992855554" />
+    <state width="1878" height="376" key="GridCell.Tab.0.center" timestamp="1607942243042">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.center/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942243042" />
+    <state width="1920" height="312" key="GridCell.Tab.0.center/-1920.-292.1920.1080/0.23.1680.1027@-1920.-292.1920.1080" timestamp="1606992855553" />
+    <state width="1878" height="376" key="GridCell.Tab.0.left" timestamp="1607942243041">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.left/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942243041" />
+    <state width="1920" height="312" key="GridCell.Tab.0.left/-1920.-292.1920.1080/0.23.1680.1027@-1920.-292.1920.1080" timestamp="1606992855553" />
+    <state width="1878" height="376" key="GridCell.Tab.0.right" timestamp="1607942243043">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.0.right/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942243043" />
+    <state width="1920" height="312" key="GridCell.Tab.0.right/-1920.-292.1920.1080/0.23.1680.1027@-1920.-292.1920.1080" timestamp="1606992855554" />
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom" timestamp="1607942243046">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.bottom/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942243046" />
+    <state width="1878" height="376" key="GridCell.Tab.1.center" timestamp="1607942243045">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.center/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942243045" />
+    <state width="1878" height="376" key="GridCell.Tab.1.left" timestamp="1607942243044">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.left/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942243044" />
+    <state width="1878" height="376" key="GridCell.Tab.1.right" timestamp="1607942243045">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="376" key="GridCell.Tab.1.right/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942243045" />
+    <state x="-1319" y="16" key="MultipleFileMergeDialog" timestamp="1607942227356">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1319" y="16" key="MultipleFileMergeDialog/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942227356" />
+    <state x="-1451" y="-113" key="SettingsEditor" timestamp="1607088063996">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1451" y="-113" key="SettingsEditor/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607088063996" />
+    <state x="-1360" y="-12" key="Vcs.Push.Dialog.v2" timestamp="1607942235794">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1360" y="-12" key="Vcs.Push.Dialog.v2/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607942235794" />
     <state x="-1141" y="-56" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1606888749458">
       <screen x="-1920" y="-292" width="1920" height="1080" />
     </state>
     <state x="-1141" y="-56" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606888749458" />
+    <state x="-1147" y="169" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606911131692">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1147" y="169" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606911131692" />
     <state x="-1253" y="-163" width="586" height="822" key="find.popup" timestamp="1606887835796">
       <screen x="-1920" y="-292" width="1920" height="1080" />
     </state>
@@ -84,5 +298,9 @@
       <screen x="-1920" y="-292" width="1920" height="1080" />
     </state>
     <state x="-1160" y="114" key="scopes/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1606888081234" />
+    <state x="-1295" y="-51" width="670" height="676" key="search.everywhere.popup" timestamp="1607340623982">
+      <screen x="-1920" y="-292" width="1920" height="1080" />
+    </state>
+    <state x="-1295" y="-51" width="670" height="676" key="search.everywhere.popup/-1920.-292.1920.1080/0.0.1680.1050@-1920.-292.1920.1080" timestamp="1607340623982" />
   </component>
 </project>
