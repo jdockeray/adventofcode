@@ -28,16 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="day 3 task 1">
-      <change afterPath="$PROJECT_DIR$/pkg/day5/day5.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/day5/day5_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/adventofcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/adventofcode.iml" afterDir="false" />
+    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="day 4">
+      <change afterPath="$PROJECT_DIR$/pkg/day6/day6.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/day1/tasks.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/day1/day1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/day2/tasks.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/day2/day2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/day3/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/day3/day3.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/day4/task.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/day4/day4.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pkg/day4/task_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/day4/day4_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +40,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -95,7 +88,7 @@
       <recent name="$PROJECT_DIR$/../github.com" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/jdockeray/adventofcode/pkg/day5">
+  <component name="RunManager" selected="Go Build.go build day6.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -106,12 +99,12 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day4" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build day6.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/pkg/day4/task.go" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day4" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/pkg/day6/day6.go" />
+      <package value="awesomeProject" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -121,6 +114,15 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/pkg/day5/day5.go" />
       <package value="github.com/jdockeray/adventofcode/pkg/day5" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day6" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/pkg/day6/day6.go" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day6" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -146,17 +148,6 @@
       <pattern value="^\QTestGetId\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestParseRowCols in github.com/jdockeray/adventofcode/pkg/day5" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day5" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day5" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestParseRowCols\E$" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -170,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day5" />
+        <item itemvalue="Go Build.go build day6.go" />
+        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day6" />
         <item itemvalue="Go Test.TestGetId in github.com/jdockeray/adventofcode/pkg/day5" />
         <item itemvalue="Go Test.TestConvertToBinary in github.com/jdockeray/adventofcode/pkg/day5" />
-        <item itemvalue="Go Test.TestParseRowCols in github.com/jdockeray/adventofcode/pkg/day5" />
-        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day4" />
+        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day5" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +201,8 @@
     <MESSAGE value="day1" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="day 3 task 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 task 1" />
+    <MESSAGE value="day 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 4" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
