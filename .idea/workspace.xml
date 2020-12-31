@@ -28,8 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="day 4">
-      <change afterPath="$PROJECT_DIR$/pkg/day6/day6.go" afterDir="false" />
+    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="day 7">
+      <change afterPath="$PROJECT_DIR$/pkg/day7/day7.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/day7/day7_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +41,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -88,7 +89,7 @@
       <recent name="$PROJECT_DIR$/../github.com" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build day6.go">
+  <component name="RunManager" selected="Go Test.TestBagMachine_Count in github.com/jdockeray/adventofcode/pkg/day7">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -99,53 +100,57 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build day6.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/pkg/day6/day6.go" />
-      <package value="awesomeProject" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day5" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day7" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/pkg/day5/day5.go" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day5" />
+      <filePath value="$PROJECT_DIR$/pkg/day7/day7.go" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day6" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBagMachine_Contains in github.com/jdockeray/adventofcode/pkg/day7" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/pkg/day6/day6.go" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day6" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestConvertToBinary in github.com/jdockeray/adventofcode/pkg/day5" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day5" />
+      <working_directory value="$PROJECT_DIR$/pkg/day7" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day5" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestConvertToBinary\E$" />
+      <pattern value="^\QTestBagMachine_Contains\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestGetId in github.com/jdockeray/adventofcode/pkg/day5" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBagMachine_Contains/does_contain_slug_-_indirectly_(2_levels_deep) in github.com/jdockeray/adventofcode/pkg/day7" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day5" />
+      <working_directory value="$PROJECT_DIR$/pkg/day7" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day5" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestGetId\E$" />
+      <pattern value="^\QTestBagMachine_Contains\E$/^\Qdoes_contain_slug_-_indirectly_(2_levels_deep)\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestBagMachine_Count in github.com/jdockeray/adventofcode/pkg/day7" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$/pkg/day7" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestBagMachine_Count\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestParseLine in github.com/jdockeray/adventofcode/pkg/day7" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$/pkg/day7" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestParseLine\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -161,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build day6.go" />
-        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day6" />
-        <item itemvalue="Go Test.TestGetId in github.com/jdockeray/adventofcode/pkg/day5" />
-        <item itemvalue="Go Test.TestConvertToBinary in github.com/jdockeray/adventofcode/pkg/day5" />
-        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day5" />
+        <item itemvalue="Go Test.TestBagMachine_Count in github.com/jdockeray/adventofcode/pkg/day7" />
+        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day7" />
+        <item itemvalue="Go Test.TestBagMachine_Contains/does_contain_slug_-_indirectly_(2_levels_deep) in github.com/jdockeray/adventofcode/pkg/day7" />
+        <item itemvalue="Go Test.TestBagMachine_Contains in github.com/jdockeray/adventofcode/pkg/day7" />
+        <item itemvalue="Go Test.TestParseLine in github.com/jdockeray/adventofcode/pkg/day7" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +207,9 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="day 3 task 1" />
     <MESSAGE value="day 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 4" />
+    <MESSAGE value="day 6" />
+    <MESSAGE value="day 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 7" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
