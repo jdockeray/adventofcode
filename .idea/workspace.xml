@@ -29,8 +29,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="day 7">
-      <change afterPath="$PROJECT_DIR$/pkg/day7/day7.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/day7/day7_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/day8/day8.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/day8/day8_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +66,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go Application" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable..is.expanded" value="false" />
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
@@ -89,7 +90,7 @@
       <recent name="$PROJECT_DIR$/../github.com" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestBagMachine_Count in github.com/jdockeray/adventofcode/pkg/day7">
+  <component name="RunManager" selected="Go Build.go build github.com/jdockeray/adventofcode/pkg/day8">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,57 +101,46 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day7" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day8" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/pkg/day7/day7.go" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
+      <filePath value="$PROJECT_DIR$/pkg/day8/day8.go" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day8" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBagMachine_Contains in github.com/jdockeray/adventofcode/pkg/day7" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFindPath in github.com/jdockeray/adventofcode/pkg/day8" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day7" />
+      <working_directory value="$PROJECT_DIR$/pkg/day8" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day8" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestBagMachine_Contains\E$" />
+      <pattern value="^\QTestFindPath\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBagMachine_Contains/does_contain_slug_-_indirectly_(2_levels_deep) in github.com/jdockeray/adventofcode/pkg/day7" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestParseInstruction in github.com/jdockeray/adventofcode/pkg/day8" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day7" />
+      <working_directory value="$PROJECT_DIR$/pkg/day8" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day8" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestBagMachine_Contains\E$/^\Qdoes_contain_slug_-_indirectly_(2_levels_deep)\E$" />
+      <pattern value="^\QTestParseInstruction\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestBagMachine_Count in github.com/jdockeray/adventofcode/pkg/day7" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestReadInstructions in github.com/jdockeray/adventofcode/pkg/day8" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day7" />
+      <working_directory value="$PROJECT_DIR$/pkg/day8" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
+      <package value="github.com/jdockeray/adventofcode/pkg/day8" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestBagMachine_Count\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestParseLine in github.com/jdockeray/adventofcode/pkg/day7" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day7" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day7" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestParseLine\E$" />
+      <pattern value="^\QTestReadInstructions\E$" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
@@ -164,13 +154,23 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="day8_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="adventofcode" />
+      <working_directory value="$PROJECT_DIR$/pkg/day8" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="awesomeProject" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/pkg/day8/day8_test.go" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestBagMachine_Count in github.com/jdockeray/adventofcode/pkg/day7" />
-        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day7" />
-        <item itemvalue="Go Test.TestBagMachine_Contains/does_contain_slug_-_indirectly_(2_levels_deep) in github.com/jdockeray/adventofcode/pkg/day7" />
-        <item itemvalue="Go Test.TestBagMachine_Contains in github.com/jdockeray/adventofcode/pkg/day7" />
-        <item itemvalue="Go Test.TestParseLine in github.com/jdockeray/adventofcode/pkg/day7" />
+        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day8" />
+        <item itemvalue="Go Test.TestFindPath in github.com/jdockeray/adventofcode/pkg/day8" />
+        <item itemvalue="Go Test.TestReadInstructions in github.com/jdockeray/adventofcode/pkg/day8" />
+        <item itemvalue="Go Test.day8_test.go" />
+        <item itemvalue="Go Test.TestParseInstruction in github.com/jdockeray/adventofcode/pkg/day8" />
       </list>
     </recent_temporary>
   </component>
