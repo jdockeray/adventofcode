@@ -28,9 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="day 8">
-      <change afterPath="$PROJECT_DIR$/pkg/day9/day9.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/day9/day9_test.go" afterDir="false" />
+    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="day 9">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,15 +78,15 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="goland.project.structure" />
+    <property name="settings.editor.selected.configurable" value="Docker" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/files" />
       <recent name="$PROJECT_DIR$/pkg" />
       <recent name="$PROJECT_DIR$/internal" />
       <recent name="$PROJECT_DIR$/../github.com/jdockeray/adventofcode" />
       <recent name="$PROJECT_DIR$/../github.com/jdockeray" />
-      <recent name="$PROJECT_DIR$/../github.com" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build github.com/jdockeray/adventofcode/pkg/day9">
@@ -209,7 +208,8 @@
     <MESSAGE value="day 6" />
     <MESSAGE value="day 7" />
     <MESSAGE value="day 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 8" />
+    <MESSAGE value="day 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 9" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
