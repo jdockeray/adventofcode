@@ -1,9 +1,10 @@
-package main
+package day1
 
 import (
 	"bufio"
 	"fmt"
 	"log"
+	"net/http"
 	"os"
 	"strconv"
 )
@@ -18,15 +19,15 @@ func paired(find int, compare int, numbers []int) int {
 }
 
 func One() {
-	file, err := os.Open("input/data.txt")
+
+	resp, err := http.Get(os.Getenv("FILE_SERVER") + "/day1.txt")
+	if err != nil {
+		log.Fatalln(err)
+	}
+	defer resp.Body.Close()
+	scanner := bufio.NewScanner(resp.Body)
 
 	numbers := make([]int, 0, 10)
-
-	if err != nil {
-		log.Fatal(err)
-	}
-
-	scanner := bufio.NewScanner(file)
 
 	for scanner.Scan() {
 		str := scanner.Text()
@@ -58,7 +59,13 @@ func Multiply(compare int, numbers []int) [][]int {
 }
 
 func Two() {
-	file, err := os.Open("input/data.txt")
+
+	resp, err := http.Get(os.Getenv("FILE_SERVER") + "/day1.txt")
+	if err != nil {
+		log.Fatalln(err)
+	}
+	defer resp.Body.Close()
+	scanner := bufio.NewScanner(resp.Body)
 
 	numbers := make([]int, 0, 10)
 	pairs := make([][]int, 0, 10)
@@ -66,8 +73,6 @@ func Two() {
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	scanner := bufio.NewScanner(file)
 
 	for scanner.Scan() {
 		str := scanner.Text()
@@ -100,7 +105,7 @@ func Two() {
 
 }
 
-func main() {
+func Day1() {
 	One()
 	fmt.Println("===============================")
 	fmt.Println("===============================")

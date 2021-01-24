@@ -28,9 +28,29 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="day 9">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+    <list default="true" id="bd418337-63eb-463f-a804-3bb8dbb95f8f" name="Default Changelist" comment="add files and dockers">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/adventofcode/adventofcode.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adventofcode.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day10/day10.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day1/day1.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day1/day1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day2/day2.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day2/day2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day3/day3.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day3/day3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day4/day4.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day4/day4.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day4/day4_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day4/day4_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day5/day5.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day5/day5.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day5/day5_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day5/day5_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day6/day6.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day6/day6.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day7/day7.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day7/day7.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day7/day7_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day7/day7_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day8/day8.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day8/day8.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day8/day8_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day8/day8_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day9/day9.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day9/day9.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/day9/day9_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/internal/day9/day9_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +60,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go Application" />
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -78,7 +98,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="settings.editor.selected.configurable" value="goland.project.structure" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -89,7 +109,7 @@
       <recent name="$PROJECT_DIR$/../github.com/jdockeray" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/jdockeray/adventofcode/pkg/day9">
+  <component name="RunManager" selected="Go Test.TestFind in github.com/jdockeray/adventofcode/internal/day9">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
@@ -100,52 +120,32 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day8" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build github.com/jdockeray/adventofcode/cmd/project" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/pkg/day8/day8.go" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day8" />
+      <filePath value="$PROJECT_DIR$/cmd/project/main.go" />
+      <package value="github.com/jdockeray/adventofcode/cmd/project" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/jdockeray/adventofcode/pkg/day9" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFind in github.com/jdockeray/adventofcode/internal/day9" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/pkg/day9/day9.go" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day9" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFind in github.com/jdockeray/adventofcode/pkg/day9" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day9" />
+      <working_directory value="$PROJECT_DIR$/internal/day9" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day9" />
+      <package value="github.com/jdockeray/adventofcode/internal/day9" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^\QTestFind\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFindPath in github.com/jdockeray/adventofcode/pkg/day8" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestFindWeakness in github.com/jdockeray/adventofcode/internal/day9" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day8" />
+      <working_directory value="$PROJECT_DIR$/internal/day9" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day8" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestFindPath\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFindWeakness in github.com/jdockeray/adventofcode/pkg/day9" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="adventofcode" />
-      <working_directory value="$PROJECT_DIR$/pkg/day9" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/jdockeray/adventofcode/pkg/day9" />
+      <package value="github.com/jdockeray/adventofcode/internal/day9" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^\QTestFindWeakness\E$" />
@@ -162,13 +162,34 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yml.app: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="app" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day9" />
-        <item itemvalue="Go Test.TestFindWeakness in github.com/jdockeray/adventofcode/pkg/day9" />
-        <item itemvalue="Go Test.TestFind in github.com/jdockeray/adventofcode/pkg/day9" />
-        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/pkg/day8" />
-        <item itemvalue="Go Test.TestFindPath in github.com/jdockeray/adventofcode/pkg/day8" />
+        <item itemvalue="Docker.docker-compose.yml.app: Compose Deployment" />
+        <item itemvalue="Go Test.TestFind in github.com/jdockeray/adventofcode/internal/day9" />
+        <item itemvalue="Go Test.TestFindWeakness in github.com/jdockeray/adventofcode/internal/day9" />
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+        <item itemvalue="Go Build.go build github.com/jdockeray/adventofcode/cmd/project" />
       </list>
     </recent_temporary>
   </component>
@@ -209,9 +230,21 @@
     <MESSAGE value="day 7" />
     <MESSAGE value="day 8" />
     <MESSAGE value="day 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 9" />
+    <MESSAGE value="add files and dockers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add files and dockers" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/internal/day9/day9.go</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

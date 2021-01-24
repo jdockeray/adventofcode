@@ -1,10 +1,11 @@
-package main
+package day6
 
 import (
 	"bufio"
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 )
 
 func SetSum(set map[string]int, size int) int {
@@ -17,8 +18,8 @@ func SetSum(set map[string]int, size int) int {
 	return sum
 }
 
-func main() {
-	resp, err := http.Get("http://127.0.0.1:8081/data/day6.txt")
+func Day6() {
+	resp, err := http.Get(os.Getenv("FILE_SERVER") + "/day6.txt")
 	if err != nil {
 		log.Fatalln(err)
 	}

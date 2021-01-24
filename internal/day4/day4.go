@@ -1,10 +1,11 @@
-package main
+package day4
 
 import (
 	"bufio"
 	"fmt"
 	"github.com/go-playground/validator/v10"
-	"github.com/jdockeray/adventofcode/pkg/day2"
+	"github.com/jdockeray/adventofcode/internal/day2"
+	"os"
 	"strconv"
 	"strings"
 )
@@ -139,10 +140,10 @@ func ValidateSetUp() {
 	}
 }
 
-func main() {
+func Day4() {
 	ValidateSetUp()
 
-	res, _ := day2.FetchData("http://127.0.0.1:8080/data/day4.txt")
+	res, _ := day2.FetchData(os.Getenv("FILE_SERVER") + "/day4.txt")
 	defer res.Body.Close()
 	scanner := bufio.NewScanner(res.Body)
 	manager := PassportManager{

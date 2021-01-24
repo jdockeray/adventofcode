@@ -1,10 +1,11 @@
-package main
+package day7
 
 import (
 	"bufio"
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"strconv"
 	"strings"
 )
@@ -114,8 +115,8 @@ func ParseLine(line string) BagWrapper {
 	}
 }
 
-func main() {
-	resp, err := http.Get("http://127.0.0.1:8081/data/day7.debug.txt")
+func Day7() {
+	resp, err := http.Get(os.Getenv("FILE_SERVER") + "/day7.txt")
 	if err != nil {
 		log.Fatalln(err)
 	}

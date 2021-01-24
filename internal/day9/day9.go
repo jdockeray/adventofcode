@@ -1,10 +1,11 @@
-package main
+package day9
 
 import (
 	"bufio"
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"strconv"
 )
 
@@ -66,8 +67,8 @@ func Find(numbers []int, blockSize int) int {
 	return 0
 }
 
-func main() {
-	resp, err := http.Get("http://127.0.0.1:8081/data/day9.txt")
+func Day9() {
+	resp, err := http.Get(os.Getenv("FILE_SERVER") + "/day9.txt")
 	if err != nil {
 		log.Fatalln(err)
 	}

@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"strconv"
 	"strings"
 )
@@ -59,8 +60,8 @@ func FetchData(url string) (*http.Response, error) {
 	return res, nil
 }
 
-func main() {
-	res, err := FetchData("http://127.0.0.1:8080/data/day2.txt")
+func Day2() {
+	res, err := FetchData(os.Getenv("FILE_SERVER") + "/day2.txt")
 	defer res.Body.Close()
 	scanner := bufio.NewScanner(res.Body)
 

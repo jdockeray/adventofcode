@@ -1,9 +1,10 @@
-package main
+package day5
 
 import (
 	"bufio"
 	"fmt"
-	"github.com/jdockeray/adventofcode/pkg/day2"
+	"github.com/jdockeray/adventofcode/internal/day2"
+	"os"
 	"strconv"
 	"strings"
 )
@@ -37,8 +38,8 @@ func GetId(rowCols string) int {
 	return (r * 8) + c
 }
 
-func main() {
-	res, _ := day2.FetchData("http://127.0.0.1:8081/data/day5.txt")
+func Day5() {
+	res, _ := day2.FetchData(os.Getenv("FILE_SERVER") + "/day5.txt")
 	defer res.Body.Close()
 	scanner := bufio.NewScanner(res.Body)
 	max := 0

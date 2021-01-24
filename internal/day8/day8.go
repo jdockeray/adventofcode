@@ -1,10 +1,11 @@
-package main
+package day8
 
 import (
 	"bufio"
 	"fmt"
 	"log"
 	"net/http"
+	"os"
 	"strconv"
 	"strings"
 )
@@ -82,8 +83,8 @@ func FindPath(instructions []Instruction) (int, bool) {
 	return 0, false
 }
 
-func main() {
-	resp, err := http.Get("http://127.0.0.1:8080/data/day8.txt")
+func Day8() {
+	resp, err := http.Get(os.Getenv("FILE_SERVER") + "/day8.txt")
 	if err != nil {
 		log.Fatalln(err)
 	}

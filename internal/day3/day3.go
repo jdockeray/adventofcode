@@ -1,9 +1,10 @@
-package main
+package day3
 
 import (
 	"bufio"
 	"fmt"
-	"github.com/jdockeray/adventofcode/pkg/day2"
+	"github.com/jdockeray/adventofcode/internal/day2"
+	"os"
 )
 
 type Slope struct {
@@ -85,15 +86,15 @@ func (receiver Grid) isEnd(y int) bool {
 }
 
 func (receiver Simulation) total() int {
-	var total int = 1
+	var total = 1
 	for _, sled := range receiver.sleds {
 		total = total * sled.position.trees
 	}
 	return total
 }
 
-func main() {
-	res, _ := day2.FetchData("http://127.0.0.1:8080/data/day3.txt")
+func Day3() {
+	res, _ := day2.FetchData(os.Getenv("FILE_SERVER") + "/day3.txt")
 	defer res.Body.Close()
 
 	scanner := bufio.NewScanner(res.Body)

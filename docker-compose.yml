@@ -1,4 +1,18 @@
 version: "3.9"
 services:
   files:
-    image: "halverneus/static-file-server:latest"
+    container_name: files
+    ports:
+    - 8080:80
+    build:
+      context: .
+      dockerfile: Serve.Dockerfile
+  app:
+    build:
+      context: .
+    environment:
+      - FILE_SERVER=http://files
+    links:
+      - files
+    depends_on:
+      - "files"
