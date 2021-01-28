@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"github.com/jdockeray/adventofcode/internal/day1"
+	"github.com/jdockeray/adventofcode/internal/day10"
 	"github.com/jdockeray/adventofcode/internal/day2"
 	"github.com/jdockeray/adventofcode/internal/day3"
 	"github.com/jdockeray/adventofcode/internal/day4"
@@ -36,6 +37,8 @@ func main() {
 		day8.Day8()
 	case "day9":
 		day9.Day9()
+	case "day10":
+		day10.Day10()
 	default:
 		fmt.Printf("unrecognised argument: %s", day)
 	}
